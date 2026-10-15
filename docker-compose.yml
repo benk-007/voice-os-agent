@@ -1,0 +1,17 @@
+# docker compose run --rm agent "open firefox and go to github.com"
+# docker compose run --rm agent            # interactive text REPL (dry run)
+# docker compose run --rm --entrypoint python agent evaluation/evaluate.py
+services:
+  agent:
+    build: .
+    stdin_open: true
+    tty: true
+    environment:
+      # Local weights mounted below; remove the volume to download from the Hub instead.
+      VOA_MODEL_DIR: /models/t5-semantic-parser-final
+    volumes:
+      - ${VOA_MODEL_HOST_DIR:-./models/t5-semantic-parser-final}:/models/t5-semantic-parser-final:ro
+      - hf-cache:/cache
+      - ./workspace:/workspace
+volumes:
+  hf-cache:
