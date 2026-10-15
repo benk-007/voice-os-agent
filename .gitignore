@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+
+# Environments & secrets
+env/
+venv/
+.venv/
+.env
+
+# Model weights (hosted on the Hugging Face Hub / downloaded on first run)
+models/
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+
+# Audio & media
+*.wav
+*.mp3
+*.flac
+*.m4a
+
+# OS / editors
+.DS_Store
+._*
+.idea/
+.vscode/
+
+# Local sandbox / outputs
+safe_workspace/
+evaluation/predictions*.jsonl

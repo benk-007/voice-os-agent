@@ -1,0 +1,11 @@
+# Optional: voice GUI (microphone + speech synthesis). PyAudio needs portaudio (brew install portaudio / apt install portaudio19-dev).
+-r requirements.txt
+SpeechRecognition==3.14.3
+PyAudio==0.2.14
+pyttsx3==2.99
+sv-ttk==2.6.1
+# Windows-only extras (volume, media keys, screenshots)
+pycaw==20251023; sys_platform == "win32"
+comtypes==1.4.13; sys_platform == "win32"
+PyAutoGUI==0.9.54; sys_platform == "win32"
+pillow==12.0.0; sys_platform == "win32"

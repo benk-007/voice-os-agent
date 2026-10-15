@@ -1,0 +1,7 @@
+# Core: model inference + text CLI (no microphone, no GUI). Versions = the ones the model was built/tested with.
+torch==2.9.1
+transformers==4.57.1
+tokenizers==0.22.1
+sentencepiece==0.2.1
+safetensors==0.6.2
+numpy==2.3.4

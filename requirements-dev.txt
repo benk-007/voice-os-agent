@@ -1,0 +1,3 @@
+# Tests and lint only: the safety tests do not need torch.
+pytest==9.1.1
+ruff==0.17.1

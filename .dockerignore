@@ -1,0 +1,8 @@
+models/
+env/
+.venv/
+.git/
+**/__pycache__/
+**/._*
+.DS_Store
+workspace/
