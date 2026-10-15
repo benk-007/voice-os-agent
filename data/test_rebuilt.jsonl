@@ -1,0 +1,407 @@
+{"input": "start firefox", "target": {"intent": "open_app", "app": "firefox"}, "category": "clean"}
+{"input": "bring up notepad", "target": {"intent": "open_app", "app": "notepad"}, "category": "clean"}
+{"input": "open terminal", "target": {"intent": "open_app", "app": "terminal"}, "category": "clean"}
+{"input": "bring up chrome", "target": {"intent": "open_app", "app": "chrome"}, "category": "clean"}
+{"input": "bring up vscode", "target": {"intent": "open_app", "app": "vscode"}, "category": "clean"}
+{"input": "can you open notepad", "target": {"intent": "open_app", "app": "notepad"}, "category": "clean"}
+{"input": "can you please fire up spotify thanks", "target": {"intent": "open_app", "app": "spotify"}, "category": "filler"}
+{"input": "can you please open chrome please", "target": {"intent": "open_app", "app": "chrome"}, "category": "filler"}
+{"input": "please start firefox thanks", "target": {"intent": "open_app", "app": "firefox"}, "category": "filler"}
+{"input": "um, can you open firefox right now", "target": {"intent": "open_app", "app": "firefox"}, "category": "filler"}
+{"input": "fie up chrome", "target": {"intent": "open_app", "app": "chrome"}, "category": "typo"}
+{"input": "fier up spotify", "target": {"intent": "open_app", "app": "spotify"}, "category": "typo"}
+{"input": "brng up notepad", "target": {"intent": "open_app", "app": "notepad"}, "category": "typo"}
+{"input": "ok so this is a bit of a weird request but can you open chrome because I need it for the presentation later today", "target": {"intent": "open_app", "app": "chrome"}, "category": "long"}
+{"input": "ok so this is a bit of a weird request but can you open spotify as soon as possible, thank you very much", "target": {"intent": "open_app", "app": "spotify"}, "category": "long"}
+{"input": "I'm working on my end of semester project and I need you to fire up vscode", "target": {"intent": "open_app", "app": "vscode"}, "category": "long"}
+{"input": "go to netflix.com", "target": {"intent": "open_url", "url": "netflix.com"}, "category": "clean"}
+{"input": "visit huggingface.co", "target": {"intent": "open_url", "url": "huggingface.co"}, "category": "clean"}
+{"input": "take me to netflix.com", "target": {"intent": "open_url", "url": "netflix.com"}, "category": "clean"}
+{"input": "take me to lemonde.fr", "target": {"intent": "open_url", "url": "lemonde.fr"}, "category": "clean"}
+{"input": "visit netflix.com", "target": {"intent": "open_url", "url": "netflix.com"}, "category": "clean"}
+{"input": "visit github.com", "target": {"intent": "open_url", "url": "github.com"}, "category": "clean"}
+{"input": "please open stackoverflow.com now", "target": {"intent": "open_url", "url": "stackoverflow.com"}, "category": "filler"}
+{"input": "um, visit youtube.com thanks", "target": {"intent": "open_url", "url": "youtube.com"}, "category": "filler"}
+{"input": "hey, take me to wikipedia.org please", "target": {"intent": "open_url", "url": "wikipedia.org"}, "category": "filler"}
+{"input": "hey assistant, take me to netflix.com now", "target": {"intent": "open_url", "url": "netflix.com"}, "category": "filler"}
+{"input": "vist lemonde.fr", "target": {"intent": "open_url", "url": "lemonde.fr"}, "category": "typo"}
+{"input": "tke me to netflix.com", "target": {"intent": "open_url", "url": "netflix.com"}, "category": "typo"}
+{"input": "go to lemonde.fr", "target": {"intent": "open_url", "url": "lemonde.fr"}, "category": "typo"}
+{"input": "I have been trying to do this for a while, could you open github.com", "target": {"intent": "open_url", "url": "github.com"}, "category": "long"}
+{"input": "ok so this is a bit of a weird request but open arxiv.org", "target": {"intent": "open_url", "url": "arxiv.org"}, "category": "long"}
+{"input": "I have been trying to do this for a while, could you visit netflix.com", "target": {"intent": "open_url", "url": "netflix.com"}, "category": "long"}
+{"input": "use edge to visit github.com", "target": {"intent": "open_app_and_go_url", "app": "edge", "url": "github.com"}, "category": "clean"}
+{"input": "open chrome and go to netflix.com", "target": {"intent": "open_app_and_go_url", "app": "chrome", "url": "netflix.com"}, "category": "clean"}
+{"input": "start chrome then navigate to lemonde.fr", "target": {"intent": "open_app_and_go_url", "app": "chrome", "url": "lemonde.fr"}, "category": "clean"}
+{"input": "start firefox then navigate to huggingface.co", "target": {"intent": "open_app_and_go_url", "app": "firefox", "url": "huggingface.co"}, "category": "clean"}
+{"input": "start firefox then navigate to lemonde.fr", "target": {"intent": "open_app_and_go_url", "app": "firefox", "url": "lemonde.fr"}, "category": "clean"}
+{"input": "launch chrome and open youtube.com", "target": {"intent": "open_app_and_go_url", "app": "chrome", "url": "youtube.com"}, "category": "clean"}
+{"input": "um, launch edge and open huggingface.co please", "target": {"intent": "open_app_and_go_url", "app": "edge", "url": "huggingface.co"}, "category": "filler"}
+{"input": "can you please start firefox then navigate to github.com now", "target": {"intent": "open_app_and_go_url", "app": "firefox", "url": "github.com"}, "category": "filler"}
+{"input": "please launch firefox and open stackoverflow.com now", "target": {"intent": "open_app_and_go_url", "app": "firefox", "url": "stackoverflow.com"}, "category": "filler"}
+{"input": "hey, use firefox to visit lemonde.fr please", "target": {"intent": "open_app_and_go_url", "app": "firefox", "url": "lemonde.fr"}, "category": "filler"}
+{"input": "launcch chrome and open netflix.com", "target": {"intent": "open_app_and_go_url", "app": "chrome", "url": "netflix.com"}, "category": "typo"}
+{"input": "oepn firefox and go to lemonde.fr", "target": {"intent": "open_app_and_go_url", "app": "firefox", "url": "lemonde.fr"}, "category": "typo"}
+{"input": "start edge thhen navigate to lemonde.fr", "target": {"intent": "open_app_and_go_url", "app": "edge", "url": "lemonde.fr"}, "category": "typo"}
+{"input": "I'm working on my end of semester project and I need you to open firefox and go to huggingface.co", "target": {"intent": "open_app_and_go_url", "app": "firefox", "url": "huggingface.co"}, "category": "long"}
+{"input": "ok so this is a bit of a weird request but use firefox to visit github.com because I need it for the presentation later today", "target": {"intent": "open_app_and_go_url", "app": "firefox", "url": "github.com"}, "category": "long"}
+{"input": "ok so this is a bit of a weird request but use firefox to visit netflix.com", "target": {"intent": "open_app_and_go_url", "app": "firefox", "url": "netflix.com"}, "category": "long"}
+{"input": "launch chrome and look up best pizza recipe", "target": {"intent": "open_app_and_search", "app": "chrome", "query": "best pizza recipe"}, "category": "clean"}
+{"input": "open chrome and search for transformer architecture", "target": {"intent": "open_app_and_search", "app": "chrome", "query": "transformer architecture"}, "category": "clean"}
+{"input": "launch edge and look up cheap flights to madrid", "target": {"intent": "open_app_and_search", "app": "edge", "query": "cheap flights to madrid"}, "category": "clean"}
+{"input": "launch edge and look up docker compose tutorial", "target": {"intent": "open_app_and_search", "app": "edge", "query": "docker compose tutorial"}, "category": "clean"}
+{"input": "start edge and search cheap flights to madrid", "target": {"intent": "open_app_and_search", "app": "edge", "query": "cheap flights to madrid"}, "category": "clean"}
+{"input": "start edge and search best pizza recipe", "target": {"intent": "open_app_and_search", "app": "edge", "query": "best pizza recipe"}, "category": "clean"}
+{"input": "hey assistant, open chrome and search for python decorators for me", "target": {"intent": "open_app_and_search", "app": "chrome", "query": "python decorators"}, "category": "filler"}
+{"input": "hey assistant, launch firefox and look up python decorators for me", "target": {"intent": "open_app_and_search", "app": "firefox", "query": "python decorators"}, "category": "filler"}
+{"input": "hey assistant, open chrome and search for python decorators now", "target": {"intent": "open_app_and_search", "app": "chrome", "query": "python decorators"}, "category": "filler"}
+{"input": "hey assistant, open firefox and search for transformer architecture for me", "target": {"intent": "open_app_and_search", "app": "firefox", "query": "transformer architecture"}, "category": "filler"}
+{"input": "launch chrome and lok up how to center a div", "target": {"intent": "open_app_and_search", "app": "chrome", "query": "how to center a div"}, "category": "typo"}
+{"input": "lauch chrome and look up transformer architecture", "target": {"intent": "open_app_and_search", "app": "chrome", "query": "transformer architecture"}, "category": "typo"}
+{"input": "launch chrome and lok up symptoms of burnout", "target": {"intent": "open_app_and_search", "app": "chrome", "query": "symptoms of burnout"}, "category": "typo"}
+{"input": "I'm working on my end of semester project and I need you to launch edge and look up football results as soon as possible, thank you very much", "target": {"intent": "open_app_and_search", "app": "edge", "query": "football results"}, "category": "long"}
+{"input": "I'm working on my end of semester project and I need you to open firefox and search for cheap flights to madrid because I need it for the presentation later today", "target": {"intent": "open_app_and_search", "app": "firefox", "query": "cheap flights to madrid"}, "category": "long"}
+{"input": "before my meeting starts in a few minutes, I would like you to launch chrome and look up docker compose tutorial because I need it for the presentation later today", "target": {"intent": "open_app_and_search", "app": "chrome", "query": "docker compose tutorial"}, "category": "long"}
+{"input": "google docker compose tutorial", "target": {"intent": "search_web", "query": "docker compose tutorial"}, "category": "clean"}
+{"input": "find information about docker compose tutorial on the internet", "target": {"intent": "search_web", "query": "docker compose tutorial"}, "category": "clean"}
+{"input": "search the web for cheap flights to madrid", "target": {"intent": "search_web", "query": "cheap flights to madrid"}, "category": "clean"}
+{"input": "find information about how to center a div on the internet", "target": {"intent": "search_web", "query": "how to center a div"}, "category": "clean"}
+{"input": "find information about cheap flights to madrid on the internet", "target": {"intent": "search_web", "query": "cheap flights to madrid"}, "category": "clean"}
+{"input": "search the web for transformer architecture", "target": {"intent": "search_web", "query": "transformer architecture"}, "category": "clean"}
+{"input": "um, search the web for how to center a div for me", "target": {"intent": "search_web", "query": "how to center a div"}, "category": "filler"}
+{"input": "could you search the web for best pizza recipe for me", "target": {"intent": "search_web", "query": "best pizza recipe"}, "category": "filler"}
+{"input": "could you find information about best pizza recipe on the internet right now", "target": {"intent": "search_web", "query": "best pizza recipe"}, "category": "filler"}
+{"input": "could you look up best pizza recipe online for me", "target": {"intent": "search_web", "query": "best pizza recipe"}, "category": "filler"}
+{"input": "lok up how to center a div online", "target": {"intent": "search_web", "query": "how to center a div"}, "category": "typo"}
+{"input": "saerch for how to center a div", "target": {"intent": "search_web", "query": "how to center a div"}, "category": "typo"}
+{"input": "saerch the web for cheap flights to madrid", "target": {"intent": "search_web", "query": "cheap flights to madrid"}, "category": "typo"}
+{"input": "I have been trying to do this for a while, could you look up docker compose tutorial online because I need it for the presentation later today", "target": {"intent": "search_web", "query": "docker compose tutorial"}, "category": "long"}
+{"input": "before my meeting starts in a few minutes, I would like you to look up symptoms of burnout online", "target": {"intent": "search_web", "query": "symptoms of burnout"}, "category": "long"}
+{"input": "ok so this is a bit of a weird request but search the web for symptoms of burnout as soon as possible, thank you very much", "target": {"intent": "search_web", "query": "symptoms of burnout"}, "category": "long"}
+{"input": "create thesis_draft.docx", "target": {"intent": "create_file", "filename": "thesis_draft.docx"}, "category": "clean"}
+{"input": "create a file called photo.png", "target": {"intent": "create_file", "filename": "photo.png"}, "category": "clean"}
+{"input": "create a file called thesis_draft.docx", "target": {"intent": "create_file", "filename": "thesis_draft.docx"}, "category": "clean"}
+{"input": "create todo.txt", "target": {"intent": "create_file", "filename": "todo.txt"}, "category": "clean"}
+{"input": "create a file called todo.txt", "target": {"intent": "create_file", "filename": "todo.txt"}, "category": "clean"}
+{"input": "new file todo.txt", "target": {"intent": "create_file", "filename": "todo.txt"}, "category": "clean"}
+{"input": "can you please create a file called photo.png right now", "target": {"intent": "create_file", "filename": "photo.png"}, "category": "filler"}
+{"input": "hey assistant, create a file called slides.pptx please", "target": {"intent": "create_file", "filename": "slides.pptx"}, "category": "filler"}
+{"input": "please create a file called budget.xlsx please", "target": {"intent": "create_file", "filename": "budget.xlsx"}, "category": "filler"}
+{"input": "can you please create budget.xlsx right now", "target": {"intent": "create_file", "filename": "budget.xlsx"}, "category": "filler"}
+{"input": "new fie report.txt", "target": {"intent": "create_file", "filename": "report.txt"}, "category": "typo"}
+{"input": "new fille thesis_draft.docx", "target": {"intent": "create_file", "filename": "thesis_draft.docx"}, "category": "typo"}
+{"input": "maake a new file named slides.pptx", "target": {"intent": "create_file", "filename": "slides.pptx"}, "category": "typo"}
+{"input": "ok so this is a bit of a weird request but new file invoice_2025.pdf and let me know when it is done", "target": {"intent": "create_file", "filename": "invoice_2025.pdf"}, "category": "long"}
+{"input": "I'm working on my end of semester project and I need you to create a file called slides.pptx as soon as possible, thank you very much", "target": {"intent": "create_file", "filename": "slides.pptx"}, "category": "long"}
+{"input": "I have been trying to do this for a while, could you new file invoice_2025.pdf as soon as possible, thank you very much", "target": {"intent": "create_file", "filename": "invoice_2025.pdf"}, "category": "long"}
+{"input": "remove photo.png", "target": {"intent": "delete_file", "filename": "photo.png"}, "category": "clean"}
+{"input": "remove notes.md", "target": {"intent": "delete_file", "filename": "notes.md"}, "category": "clean"}
+{"input": "delete the file invoice_2025.pdf", "target": {"intent": "delete_file", "filename": "invoice_2025.pdf"}, "category": "clean"}
+{"input": "delete invoice_2025.pdf", "target": {"intent": "delete_file", "filename": "invoice_2025.pdf"}, "category": "clean"}
+{"input": "delete photo.png", "target": {"intent": "delete_file", "filename": "photo.png"}, "category": "clean"}
+{"input": "delete the file report.txt", "target": {"intent": "delete_file", "filename": "report.txt"}, "category": "clean"}
+{"input": "please erase the file slides.pptx for me", "target": {"intent": "delete_file", "filename": "slides.pptx"}, "category": "filler"}
+{"input": "hey assistant, remove invoice_2025.pdf thanks", "target": {"intent": "delete_file", "filename": "invoice_2025.pdf"}, "category": "filler"}
+{"input": "can you please remove photo.png right now", "target": {"intent": "delete_file", "filename": "photo.png"}, "category": "filler"}
+{"input": "could you remove photo.png right now", "target": {"intent": "delete_file", "filename": "photo.png"}, "category": "filler"}
+{"input": "erase the fiel data.csv", "target": {"intent": "delete_file", "filename": "data.csv"}, "category": "typo"}
+{"input": "ersae the file budget.xlsx", "target": {"intent": "delete_file", "filename": "budget.xlsx"}, "category": "typo"}
+{"input": "eraes the file photo.png", "target": {"intent": "delete_file", "filename": "photo.png"}, "category": "typo"}
+{"input": "ok so this is a bit of a weird request but delete notes.md as soon as possible, thank you very much", "target": {"intent": "delete_file", "filename": "notes.md"}, "category": "long"}
+{"input": "I'm working on my end of semester project and I need you to delete the file budget.xlsx and let me know when it is done", "target": {"intent": "delete_file", "filename": "budget.xlsx"}, "category": "long"}
+{"input": "I have been trying to do this for a while, could you delete the file todo.txt", "target": {"intent": "delete_file", "filename": "todo.txt"}, "category": "long"}
+{"input": "open file invoice_2025.pdf", "target": {"intent": "open_file", "filename": "invoice_2025.pdf"}, "category": "clean"}
+{"input": "open file budget.xlsx", "target": {"intent": "open_file", "filename": "budget.xlsx"}, "category": "clean"}
+{"input": "open the file notes.md", "target": {"intent": "open_file", "filename": "notes.md"}, "category": "clean"}
+{"input": "show me the file thesis_draft.docx", "target": {"intent": "open_file", "filename": "thesis_draft.docx"}, "category": "clean"}
+{"input": "show me the file invoice_2025.pdf", "target": {"intent": "open_file", "filename": "invoice_2025.pdf"}, "category": "clean"}
+{"input": "open the file todo.txt", "target": {"intent": "open_file", "filename": "todo.txt"}, "category": "clean"}
+{"input": "could you open the file slides.pptx right now", "target": {"intent": "open_file", "filename": "slides.pptx"}, "category": "filler"}
+{"input": "could you show me the file invoice_2025.pdf for me", "target": {"intent": "open_file", "filename": "invoice_2025.pdf"}, "category": "filler"}
+{"input": "hey assistant, open the file thesis_draft.docx please", "target": {"intent": "open_file", "filename": "thesis_draft.docx"}, "category": "filler"}
+{"input": "could you show me the file data.csv now", "target": {"intent": "open_file", "filename": "data.csv"}, "category": "filler"}
+{"input": "oen file budget.xlsx", "target": {"intent": "open_file", "filename": "budget.xlsx"}, "category": "typo"}
+{"input": "oepn the file invoice_2025.pdf", "target": {"intent": "open_file", "filename": "invoice_2025.pdf"}, "category": "typo"}
+{"input": "opne file invoice_2025.pdf", "target": {"intent": "open_file", "filename": "invoice_2025.pdf"}, "category": "typo"}
+{"input": "before my meeting starts in a few minutes, I would like you to show me the file photo.png and let me know when it is done", "target": {"intent": "open_file", "filename": "photo.png"}, "category": "long"}
+{"input": "I'm working on my end of semester project and I need you to open the file slides.pptx as soon as possible, thank you very much", "target": {"intent": "open_file", "filename": "slides.pptx"}, "category": "long"}
+{"input": "I'm working on my end of semester project and I need you to open the file data.csv", "target": {"intent": "open_file", "filename": "data.csv"}, "category": "long"}
+{"input": "use notepad to open todo.txt", "target": {"intent": "open_file_with_app", "filename": "todo.txt", "app": "notepad"}, "category": "clean"}
+{"input": "open notes.md in notepad", "target": {"intent": "open_file_with_app", "filename": "notes.md", "app": "notepad"}, "category": "clean"}
+{"input": "use vscode to open data.csv", "target": {"intent": "open_file_with_app", "filename": "data.csv", "app": "vscode"}, "category": "clean"}
+{"input": "open invoice_2025.pdf in vscode", "target": {"intent": "open_file_with_app", "filename": "invoice_2025.pdf", "app": "vscode"}, "category": "clean"}
+{"input": "open data.csv with notepad", "target": {"intent": "open_file_with_app", "filename": "data.csv", "app": "notepad"}, "category": "clean"}
+{"input": "open notes.md in vscode", "target": {"intent": "open_file_with_app", "filename": "notes.md", "app": "vscode"}, "category": "clean"}
+{"input": "hey, use notepad to open todo.txt for me", "target": {"intent": "open_file_with_app", "filename": "todo.txt", "app": "notepad"}, "category": "filler"}
+{"input": "can you please use notepad to open photo.png right now", "target": {"intent": "open_file_with_app", "filename": "photo.png", "app": "notepad"}, "category": "filler"}
+{"input": "could you open photo.png in notepad for me", "target": {"intent": "open_file_with_app", "filename": "photo.png", "app": "notepad"}, "category": "filler"}
+{"input": "hey assistant, open slides.pptx with notepad right now", "target": {"intent": "open_file_with_app", "filename": "slides.pptx", "app": "notepad"}, "category": "filler"}
+{"input": "use notepad to oepn photo.png", "target": {"intent": "open_file_with_app", "filename": "photo.png", "app": "notepad"}, "category": "typo"}
+{"input": "opne data.csv in vscode", "target": {"intent": "open_file_with_app", "filename": "data.csv", "app": "vscode"}, "category": "typo"}
+{"input": "oppen photo.png in notepad", "target": {"intent": "open_file_with_app", "filename": "photo.png", "app": "notepad"}, "category": "typo"}
+{"input": "before my meeting starts in a few minutes, I would like you to open todo.txt in vscode because I need it for the presentation later today", "target": {"intent": "open_file_with_app", "filename": "todo.txt", "app": "vscode"}, "category": "long"}
+{"input": "I have been trying to do this for a while, could you use notepad to open todo.txt", "target": {"intent": "open_file_with_app", "filename": "todo.txt", "app": "notepad"}, "category": "long"}
+{"input": "ok so this is a bit of a weird request but use vscode to open thesis_draft.docx", "target": {"intent": "open_file_with_app", "filename": "thesis_draft.docx", "app": "vscode"}, "category": "long"}
+{"input": "change the name of photo.png to final.txt", "target": {"intent": "rename_file", "filename": "photo.png", "newname": "final.txt"}, "category": "clean"}
+{"input": "change the name of invoice_2025.pdf to old_notes.md", "target": {"intent": "rename_file", "filename": "invoice_2025.pdf", "newname": "old_notes.md"}, "category": "clean"}
+{"input": "rename photo.png to v2.csv", "target": {"intent": "rename_file", "filename": "photo.png", "newname": "v2.csv"}, "category": "clean"}
+{"input": "rename thesis_draft.docx to old_notes.md", "target": {"intent": "rename_file", "filename": "thesis_draft.docx", "newname": "old_notes.md"}, "category": "clean"}
+{"input": "rename todo.txt to v2.csv", "target": {"intent": "rename_file", "filename": "todo.txt", "newname": "v2.csv"}, "category": "clean"}
+{"input": "change the name of photo.png to summary.pdf", "target": {"intent": "rename_file", "filename": "photo.png", "newname": "summary.pdf"}, "category": "clean"}
+{"input": "please rename data.csv to v2.csv for me", "target": {"intent": "rename_file", "filename": "data.csv", "newname": "v2.csv"}, "category": "filler"}
+{"input": "please change the name of notes.md to v2.csv for me", "target": {"intent": "rename_file", "filename": "notes.md", "newname": "v2.csv"}, "category": "filler"}
+{"input": "please change the name of data.csv to v2.csv now", "target": {"intent": "rename_file", "filename": "data.csv", "newname": "v2.csv"}, "category": "filler"}
+{"input": "hey, rename slides.pptx to final.txt right now", "target": {"intent": "rename_file", "filename": "slides.pptx", "newname": "final.txt"}, "category": "filler"}
+{"input": "renmae slides.pptx to summary.pdf", "target": {"intent": "rename_file", "filename": "slides.pptx", "newname": "summary.pdf"}, "category": "typo"}
+{"input": "renme thesis_draft.docx to old_notes.md", "target": {"intent": "rename_file", "filename": "thesis_draft.docx", "newname": "old_notes.md"}, "category": "typo"}
+{"input": "renme report.txt to old_notes.md", "target": {"intent": "rename_file", "filename": "report.txt", "newname": "old_notes.md"}, "category": "typo"}
+{"input": "ok so this is a bit of a weird request but change the name of photo.png to v2.csv", "target": {"intent": "rename_file", "filename": "photo.png", "newname": "v2.csv"}, "category": "long"}
+{"input": "I have been trying to do this for a while, could you rename photo.png to v2.csv and let me know when it is done", "target": {"intent": "rename_file", "filename": "photo.png", "newname": "v2.csv"}, "category": "long"}
+{"input": "ok so this is a bit of a weird request but change the name of report.txt to summary.pdf", "target": {"intent": "rename_file", "filename": "report.txt", "newname": "summary.pdf"}, "category": "long"}
+{"input": "move the file slides.pptx into the backup folder", "target": {"intent": "move_file", "filename": "slides.pptx", "folder": "backup"}, "category": "clean"}
+{"input": "put invoice_2025.pdf in work", "target": {"intent": "move_file", "filename": "invoice_2025.pdf", "folder": "work"}, "category": "clean"}
+{"input": "move thesis_draft.docx to backup", "target": {"intent": "move_file", "filename": "thesis_draft.docx", "folder": "backup"}, "category": "clean"}
+{"input": "move the file report.txt into the work folder", "target": {"intent": "move_file", "filename": "report.txt", "folder": "work"}, "category": "clean"}
+{"input": "put notes.md in music", "target": {"intent": "move_file", "filename": "notes.md", "folder": "music"}, "category": "clean"}
+{"input": "put invoice_2025.pdf in music", "target": {"intent": "move_file", "filename": "invoice_2025.pdf", "folder": "music"}, "category": "clean"}
+{"input": "please put todo.txt in invoices now", "target": {"intent": "move_file", "filename": "todo.txt", "folder": "invoices"}, "category": "filler"}
+{"input": "um, move the file invoice_2025.pdf into the photos folder right now", "target": {"intent": "move_file", "filename": "invoice_2025.pdf", "folder": "photos"}, "category": "filler"}
+{"input": "please move photo.png to backup now", "target": {"intent": "move_file", "filename": "photo.png", "folder": "backup"}, "category": "filler"}
+{"input": "can you please move the file budget.xlsx into the work folder now", "target": {"intent": "move_file", "filename": "budget.xlsx", "folder": "work"}, "category": "filler"}
+{"input": "mve thesis_draft.docx to music", "target": {"intent": "move_file", "filename": "thesis_draft.docx", "folder": "music"}, "category": "typo"}
+{"input": "move the fle slides.pptx into the archive folder", "target": {"intent": "move_file", "filename": "slides.pptx", "folder": "archive"}, "category": "typo"}
+{"input": "put data.csv in archive", "target": {"intent": "move_file", "filename": "data.csv", "folder": "archive"}, "category": "typo"}
+{"input": "I have been trying to do this for a while, could you put photo.png in backup and let me know when it is done", "target": {"intent": "move_file", "filename": "photo.png", "folder": "backup"}, "category": "long"}
+{"input": "before my meeting starts in a few minutes, I would like you to put budget.xlsx in photos and let me know when it is done", "target": {"intent": "move_file", "filename": "budget.xlsx", "folder": "photos"}, "category": "long"}
+{"input": "I'm working on my end of semester project and I need you to put budget.xlsx in work because I need it for the presentation later today", "target": {"intent": "move_file", "filename": "budget.xlsx", "folder": "work"}, "category": "long"}
+{"input": "duplicate todo.txt into work", "target": {"intent": "copy_file", "filename": "todo.txt", "folder": "work"}, "category": "clean"}
+{"input": "duplicate budget.xlsx into archive", "target": {"intent": "copy_file", "filename": "budget.xlsx", "folder": "archive"}, "category": "clean"}
+{"input": "duplicate invoice_2025.pdf into music", "target": {"intent": "copy_file", "filename": "invoice_2025.pdf", "folder": "music"}, "category": "clean"}
+{"input": "copy budget.xlsx to invoices", "target": {"intent": "copy_file", "filename": "budget.xlsx", "folder": "invoices"}, "category": "clean"}
+{"input": "copy budget.xlsx to music", "target": {"intent": "copy_file", "filename": "budget.xlsx", "folder": "music"}, "category": "clean"}
+{"input": "make a copy of thesis_draft.docx in the music folder", "target": {"intent": "copy_file", "filename": "thesis_draft.docx", "folder": "music"}, "category": "clean"}
+{"input": "could you copy data.csv to photos for me", "target": {"intent": "copy_file", "filename": "data.csv", "folder": "photos"}, "category": "filler"}
+{"input": "please make a copy of invoice_2025.pdf in the backup folder thanks", "target": {"intent": "copy_file", "filename": "invoice_2025.pdf", "folder": "backup"}, "category": "filler"}
+{"input": "hey, duplicate thesis_draft.docx into archive now", "target": {"intent": "copy_file", "filename": "thesis_draft.docx", "folder": "archive"}, "category": "filler"}
+{"input": "please copy report.txt to invoices please", "target": {"intent": "copy_file", "filename": "report.txt", "folder": "invoices"}, "category": "filler"}
+{"input": "make a copy of photo.png in the photos foler", "target": {"intent": "copy_file", "filename": "photo.png", "folder": "photos"}, "category": "typo"}
+{"input": "mke a copy of report.txt in the archive folder", "target": {"intent": "copy_file", "filename": "report.txt", "folder": "archive"}, "category": "typo"}
+{"input": "coopy thesis_draft.docx to archive", "target": {"intent": "copy_file", "filename": "thesis_draft.docx", "folder": "archive"}, "category": "typo"}
+{"input": "before my meeting starts in a few minutes, I would like you to duplicate data.csv into archive", "target": {"intent": "copy_file", "filename": "data.csv", "folder": "archive"}, "category": "long"}
+{"input": "before my meeting starts in a few minutes, I would like you to duplicate thesis_draft.docx into invoices as soon as possible, thank you very much", "target": {"intent": "copy_file", "filename": "thesis_draft.docx", "folder": "invoices"}, "category": "long"}
+{"input": "I have been trying to do this for a while, could you make a copy of data.csv in the photos folder because I need it for the presentation later today", "target": {"intent": "copy_file", "filename": "data.csv", "folder": "photos"}, "category": "long"}
+{"input": "new folder archive", "target": {"intent": "create_folder", "folder": "archive"}, "category": "clean"}
+{"input": "create a folder named archive", "target": {"intent": "create_folder", "folder": "archive"}, "category": "clean"}
+{"input": "create a folder named work", "target": {"intent": "create_folder", "folder": "work"}, "category": "clean"}
+{"input": "new folder backup", "target": {"intent": "create_folder", "folder": "backup"}, "category": "clean"}
+{"input": "new folder music", "target": {"intent": "create_folder", "folder": "music"}, "category": "clean"}
+{"input": "create a folder named music", "target": {"intent": "create_folder", "folder": "music"}, "category": "clean"}
+{"input": "hey, create a folder named projects thanks", "target": {"intent": "create_folder", "folder": "projects"}, "category": "filler"}
+{"input": "please make a new directory called archive now", "target": {"intent": "create_folder", "folder": "archive"}, "category": "filler"}
+{"input": "hey assistant, new folder archive right now", "target": {"intent": "create_folder", "folder": "archive"}, "category": "filler"}
+{"input": "could you new folder backup thanks", "target": {"intent": "create_folder", "folder": "backup"}, "category": "filler"}
+{"input": "make a new directory calld projects", "target": {"intent": "create_folder", "folder": "projects"}, "category": "typo"}
+{"input": "make a new dierctory called work", "target": {"intent": "create_folder", "folder": "work"}, "category": "typo"}
+{"input": "create a folder nmed work", "target": {"intent": "create_folder", "folder": "work"}, "category": "typo"}
+{"input": "I'm working on my end of semester project and I need you to make a new directory called invoices as soon as possible, thank you very much", "target": {"intent": "create_folder", "folder": "invoices"}, "category": "long"}
+{"input": "I'm working on my end of semester project and I need you to make a new directory called work", "target": {"intent": "create_folder", "folder": "work"}, "category": "long"}
+{"input": "I'm working on my end of semester project and I need you to create a folder named backup because I need it for the presentation later today", "target": {"intent": "create_folder", "folder": "backup"}, "category": "long"}
+{"input": "list the contents of projects", "target": {"intent": "list_dir", "folder": "projects"}, "category": "clean"}
+{"input": "list the contents of invoices", "target": {"intent": "list_dir", "folder": "invoices"}, "category": "clean"}
+{"input": "show me what is in the projects folder", "target": {"intent": "list_dir", "folder": "projects"}, "category": "clean"}
+{"input": "list the contents of work", "target": {"intent": "list_dir", "folder": "work"}, "category": "clean"}
+{"input": "list files in projects", "target": {"intent": "list_dir", "folder": "projects"}, "category": "clean"}
+{"input": "list files in backup", "target": {"intent": "list_dir", "folder": "backup"}, "category": "clean"}
+{"input": "um, list files in projects please", "target": {"intent": "list_dir", "folder": "projects"}, "category": "filler"}
+{"input": "could you list the contents of archive please", "target": {"intent": "list_dir", "folder": "archive"}, "category": "filler"}
+{"input": "please list the contents of projects now", "target": {"intent": "list_dir", "folder": "projects"}, "category": "filler"}
+{"input": "hey assistant, list files in photos right now", "target": {"intent": "list_dir", "folder": "photos"}, "category": "filler"}
+{"input": "list fiels in music", "target": {"intent": "list_dir", "folder": "music"}, "category": "typo"}
+{"input": "list the contenst of backup", "target": {"intent": "list_dir", "folder": "backup"}, "category": "typo"}
+{"input": "list fiels in invoices", "target": {"intent": "list_dir", "folder": "invoices"}, "category": "typo"}
+{"input": "before my meeting starts in a few minutes, I would like you to list files in invoices", "target": {"intent": "list_dir", "folder": "invoices"}, "category": "long"}
+{"input": "I have been trying to do this for a while, could you list files in archive", "target": {"intent": "list_dir", "folder": "archive"}, "category": "long"}
+{"input": "I'm working on my end of semester project and I need you to list the contents of invoices", "target": {"intent": "list_dir", "folder": "invoices"}, "category": "long"}
+{"input": "look for invoice files in the invoices folder", "target": {"intent": "search_files", "pattern": "invoice", "folder": "invoices"}, "category": "clean"}
+{"input": "find files called budget in photos", "target": {"intent": "search_files", "pattern": "budget", "folder": "photos"}, "category": "clean"}
+{"input": "search for files named invoice in backup", "target": {"intent": "search_files", "pattern": "invoice", "folder": "backup"}, "category": "clean"}
+{"input": "find files called notes in backup", "target": {"intent": "search_files", "pattern": "notes", "folder": "backup"}, "category": "clean"}
+{"input": "look for screenshot files in the work folder", "target": {"intent": "search_files", "pattern": "screenshot", "folder": "work"}, "category": "clean"}
+{"input": "find files called notes in projects", "target": {"intent": "search_files", "pattern": "notes", "folder": "projects"}, "category": "clean"}
+{"input": "hey, look for notes files in the work folder now", "target": {"intent": "search_files", "pattern": "notes", "folder": "work"}, "category": "filler"}
+{"input": "hey, find files called budget in photos now", "target": {"intent": "search_files", "pattern": "budget", "folder": "photos"}, "category": "filler"}
+{"input": "um, search for files named budget in photos thanks", "target": {"intent": "search_files", "pattern": "budget", "folder": "photos"}, "category": "filler"}
+{"input": "um, search for files named budget in work thanks", "target": {"intent": "search_files", "pattern": "budget", "folder": "work"}, "category": "filler"}
+{"input": "seacrh for files named budget in archive", "target": {"intent": "search_files", "pattern": "budget", "folder": "archive"}, "category": "typo"}
+{"input": "fidn files called notes in backup", "target": {"intent": "search_files", "pattern": "notes", "folder": "backup"}, "category": "typo"}
+{"input": "look for budget files in the archive flder", "target": {"intent": "search_files", "pattern": "budget", "folder": "archive"}, "category": "typo"}
+{"input": "ok so this is a bit of a weird request but search for files named notes in music", "target": {"intent": "search_files", "pattern": "notes", "folder": "music"}, "category": "long"}
+{"input": "before my meeting starts in a few minutes, I would like you to search for files named notes in music", "target": {"intent": "search_files", "pattern": "notes", "folder": "music"}, "category": "long"}
+{"input": "before my meeting starts in a few minutes, I would like you to search for files named budget in backup because I need it for the presentation later today", "target": {"intent": "search_files", "pattern": "budget", "folder": "backup"}, "category": "long"}
+{"input": "compress todo.txt, slides.pptx into backup.zip", "target": {"intent": "zip_files", "filenames": "todo.txt, slides.pptx", "zipname": "backup.zip"}, "category": "clean"}
+{"input": "zip report.txt, data.csv into week12.zip", "target": {"intent": "zip_files", "filenames": "report.txt, data.csv", "zipname": "week12.zip"}, "category": "clean"}
+{"input": "compress invoice_2025.pdf, budget.xlsx into docs.zip", "target": {"intent": "zip_files", "filenames": "invoice_2025.pdf, budget.xlsx", "zipname": "docs.zip"}, "category": "clean"}
+{"input": "create an archive docs.zip with report.txt, photo.png", "target": {"intent": "zip_files", "filenames": "report.txt, photo.png", "zipname": "docs.zip"}, "category": "clean"}
+{"input": "zip thesis_draft.docx, data.csv into backup.zip", "target": {"intent": "zip_files", "filenames": "thesis_draft.docx, data.csv", "zipname": "backup.zip"}, "category": "clean"}
+{"input": "compress report.txt, invoice_2025.pdf into export.zip", "target": {"intent": "zip_files", "filenames": "report.txt, invoice_2025.pdf", "zipname": "export.zip"}, "category": "clean"}
+{"input": "can you please create an archive export.zip with invoice_2025.pdf, notes.md for me", "target": {"intent": "zip_files", "filenames": "invoice_2025.pdf, notes.md", "zipname": "export.zip"}, "category": "filler"}
+{"input": "hey, create an archive docs.zip with budget.xlsx, slides.pptx now", "target": {"intent": "zip_files", "filenames": "budget.xlsx, slides.pptx", "zipname": "docs.zip"}, "category": "filler"}
+{"input": "hey assistant, create an archive week12.zip with photo.png, thesis_draft.docx for me", "target": {"intent": "zip_files", "filenames": "photo.png, thesis_draft.docx", "zipname": "week12.zip"}, "category": "filler"}
+{"input": "please compress data.csv, notes.md into backup.zip for me", "target": {"intent": "zip_files", "filenames": "data.csv, notes.md", "zipname": "backup.zip"}, "category": "filler"}
+{"input": "cretae an archive export.zip with invoice_2025.pdf, slides.pptx", "target": {"intent": "zip_files", "filenames": "invoice_2025.pdf, slides.pptx", "zipname": "export.zip"}, "category": "typo"}
+{"input": "zip data.csv, notes.md innto docs.zip", "target": {"intent": "zip_files", "filenames": "data.csv, notes.md", "zipname": "docs.zip"}, "category": "typo"}
+{"input": "create an arrchive week12.zip with data.csv, thesis_draft.docx", "target": {"intent": "zip_files", "filenames": "data.csv, thesis_draft.docx", "zipname": "week12.zip"}, "category": "typo"}
+{"input": "I have been trying to do this for a while, could you zip report.txt, todo.txt into docs.zip and let me know when it is done", "target": {"intent": "zip_files", "filenames": "report.txt, todo.txt", "zipname": "docs.zip"}, "category": "long"}
+{"input": "I'm working on my end of semester project and I need you to create an archive week12.zip with todo.txt, budget.xlsx because I need it for the presentation later today", "target": {"intent": "zip_files", "filenames": "todo.txt, budget.xlsx", "zipname": "week12.zip"}, "category": "long"}
+{"input": "I'm working on my end of semester project and I need you to create an archive export.zip with photo.png, budget.xlsx and let me know when it is done", "target": {"intent": "zip_files", "filenames": "photo.png, budget.xlsx", "zipname": "export.zip"}, "category": "long"}
+{"input": "unzip data.zip", "target": {"intent": "unzip_files", "zipname": "data.zip"}, "category": "clean"}
+{"input": "unzip archive.zip", "target": {"intent": "unzip_files", "zipname": "archive.zip"}, "category": "clean"}
+{"input": "decompress the archive archive.zip", "target": {"intent": "unzip_files", "zipname": "archive.zip"}, "category": "clean"}
+{"input": "unzip release.zip", "target": {"intent": "unzip_files", "zipname": "release.zip"}, "category": "clean"}
+{"input": "extract data.zip", "target": {"intent": "unzip_files", "zipname": "data.zip"}, "category": "clean"}
+{"input": "extract archive.zip", "target": {"intent": "unzip_files", "zipname": "archive.zip"}, "category": "clean"}
+{"input": "um, unzip release.zip please", "target": {"intent": "unzip_files", "zipname": "release.zip"}, "category": "filler"}
+{"input": "please decompress the archive data.zip please", "target": {"intent": "unzip_files", "zipname": "data.zip"}, "category": "filler"}
+{"input": "um, extract photos.zip please", "target": {"intent": "unzip_files", "zipname": "photos.zip"}, "category": "filler"}
+{"input": "um, extract data.zip thanks", "target": {"intent": "unzip_files", "zipname": "data.zip"}, "category": "filler"}
+{"input": "extrat release.zip", "target": {"intent": "unzip_files", "zipname": "release.zip"}, "category": "typo"}
+{"input": "exrtact data.zip", "target": {"intent": "unzip_files", "zipname": "data.zip"}, "category": "typo"}
+{"input": "unzp archive.zip", "target": {"intent": "unzip_files", "zipname": "archive.zip"}, "category": "typo"}
+{"input": "ok so this is a bit of a weird request but unzip data.zip and let me know when it is done", "target": {"intent": "unzip_files", "zipname": "data.zip"}, "category": "long"}
+{"input": "I have been trying to do this for a while, could you unzip archive.zip and let me know when it is done", "target": {"intent": "unzip_files", "zipname": "archive.zip"}, "category": "long"}
+{"input": "I have been trying to do this for a while, could you decompress the archive release.zip and let me know when it is done", "target": {"intent": "unzip_files", "zipname": "release.zip"}, "category": "long"}
+{"input": "raise the sound", "target": {"intent": "volume_up"}, "category": "clean"}
+{"input": "louder", "target": {"intent": "volume_up"}, "category": "clean"}
+{"input": "volume up", "target": {"intent": "volume_up"}, "category": "clean"}
+{"input": "increase the volume", "target": {"intent": "volume_up"}, "category": "clean"}
+{"input": "turn up the volume", "target": {"intent": "volume_up"}, "category": "clean"}
+{"input": "turn down the volume", "target": {"intent": "volume_down"}, "category": "clean"}
+{"input": "lower the sound", "target": {"intent": "volume_down"}, "category": "clean"}
+{"input": "volume down", "target": {"intent": "volume_down"}, "category": "clean"}
+{"input": "quieter", "target": {"intent": "volume_down"}, "category": "clean"}
+{"input": "decrease the volume", "target": {"intent": "volume_down"}, "category": "clean"}
+{"input": "mute the sound", "target": {"intent": "mute"}, "category": "clean"}
+{"input": "silence the computer", "target": {"intent": "mute"}, "category": "clean"}
+{"input": "mute", "target": {"intent": "mute"}, "category": "clean"}
+{"input": "mute the audio", "target": {"intent": "mute"}, "category": "clean"}
+{"input": "unmute the sound", "target": {"intent": "unmute"}, "category": "clean"}
+{"input": "turn the sound back on", "target": {"intent": "unmute"}, "category": "clean"}
+{"input": "unmute", "target": {"intent": "unmute"}, "category": "clean"}
+{"input": "grab a screen capture", "target": {"intent": "screenshot"}, "category": "clean"}
+{"input": "capture the screen", "target": {"intent": "screenshot"}, "category": "clean"}
+{"input": "take a screenshot", "target": {"intent": "screenshot"}, "category": "clean"}
+{"input": "screenshot please", "target": {"intent": "screenshot"}, "category": "clean"}
+{"input": "lock the screen", "target": {"intent": "lock_screen"}, "category": "clean"}
+{"input": "lock my computer", "target": {"intent": "lock_screen"}, "category": "clean"}
+{"input": "lock the session", "target": {"intent": "lock_screen"}, "category": "clean"}
+{"input": "sleep mode", "target": {"intent": "system_sleep"}, "category": "clean"}
+{"input": "make the computer sleep", "target": {"intent": "system_sleep"}, "category": "clean"}
+{"input": "put the computer to sleep", "target": {"intent": "system_sleep"}, "category": "clean"}
+{"input": "shut down the computer", "target": {"intent": "shutdown"}, "category": "clean"}
+{"input": "turn off the computer", "target": {"intent": "shutdown"}, "category": "clean"}
+{"input": "shutdown", "target": {"intent": "shutdown"}, "category": "clean"}
+{"input": "power off", "target": {"intent": "shutdown"}, "category": "clean"}
+{"input": "restart my pc", "target": {"intent": "restart"}, "category": "clean"}
+{"input": "restart the computer", "target": {"intent": "restart"}, "category": "clean"}
+{"input": "reboot the machine", "target": {"intent": "restart"}, "category": "clean"}
+{"input": "reboot", "target": {"intent": "restart"}, "category": "clean"}
+{"input": "start the music", "target": {"intent": "play_music"}, "category": "clean"}
+{"input": "play music", "target": {"intent": "play_music"}, "category": "clean"}
+{"input": "play some music", "target": {"intent": "play_music"}, "category": "clean"}
+{"input": "pause the music", "target": {"intent": "pause_music"}, "category": "clean"}
+{"input": "pause", "target": {"intent": "pause_music"}, "category": "clean"}
+{"input": "pause the song", "target": {"intent": "pause_music"}, "category": "clean"}
+{"input": "timer 1 hour", "target": {"intent": "set_timer", "duration": "1 hour"}, "category": "clean"}
+{"input": "remind me in 2 minutes", "target": {"intent": "set_timer", "duration": "2 minutes"}, "category": "clean"}
+{"input": "start a 1 hour timer", "target": {"intent": "set_timer", "duration": "1 hour"}, "category": "clean"}
+{"input": "set a timer for 30 seconds", "target": {"intent": "set_timer", "duration": "30 seconds"}, "category": "clean"}
+{"input": "remind me in 5 minutes", "target": {"intent": "set_timer", "duration": "5 minutes"}, "category": "clean"}
+{"input": "timer 45 minutes", "target": {"intent": "set_timer", "duration": "45 minutes"}, "category": "clean"}
+{"input": "hey, timer 30 seconds right now", "target": {"intent": "set_timer", "duration": "30 seconds"}, "category": "filler"}
+{"input": "hey, timer 1 hour thanks", "target": {"intent": "set_timer", "duration": "1 hour"}, "category": "filler"}
+{"input": "please timer 2 minutes thanks", "target": {"intent": "set_timer", "duration": "2 minutes"}, "category": "filler"}
+{"input": "hey assistant, set a timer for 5 minutes please", "target": {"intent": "set_timer", "duration": "5 minutes"}, "category": "filler"}
+{"input": "strt a 15 minutes timer", "target": {"intent": "set_timer", "duration": "15 minutes"}, "category": "typo"}
+{"input": "tiimer 30 seconds", "target": {"intent": "set_timer", "duration": "30 seconds"}, "category": "typo"}
+{"input": "tmer 45 minutes", "target": {"intent": "set_timer", "duration": "45 minutes"}, "category": "typo"}
+{"input": "I have been trying to do this for a while, could you start a 2 minutes timer and let me know when it is done", "target": {"intent": "set_timer", "duration": "2 minutes"}, "category": "long"}
+{"input": "I'm working on my end of semester project and I need you to timer 15 minutes and let me know when it is done", "target": {"intent": "set_timer", "duration": "15 minutes"}, "category": "long"}
+{"input": "I'm working on my end of semester project and I need you to set a timer for 1 hour", "target": {"intent": "set_timer", "duration": "1 hour"}, "category": "long"}
+{"input": "how is the weather in Casablanca today", "target": {"intent": "weather", "location": "Casablanca"}, "category": "clean"}
+{"input": "is it going to rain in Berlin", "target": {"intent": "weather", "location": "Berlin"}, "category": "clean"}
+{"input": "weather in London", "target": {"intent": "weather", "location": "London"}, "category": "clean"}
+{"input": "is it going to rain in Tokyo", "target": {"intent": "weather", "location": "Tokyo"}, "category": "clean"}
+{"input": "what is the weather in Rabat", "target": {"intent": "weather", "location": "Rabat"}, "category": "clean"}
+{"input": "is it going to rain in Paris", "target": {"intent": "weather", "location": "Paris"}, "category": "clean"}
+{"input": "could you what is the weather in London right now", "target": {"intent": "weather", "location": "London"}, "category": "filler"}
+{"input": "um, what is the weather in Paris right now", "target": {"intent": "weather", "location": "Paris"}, "category": "filler"}
+{"input": "um, is it going to rain in Berlin now", "target": {"intent": "weather", "location": "Berlin"}, "category": "filler"}
+{"input": "can you please weather in Berlin thanks", "target": {"intent": "weather", "location": "Berlin"}, "category": "filler"}
+{"input": "how is the weather in Paris tody", "target": {"intent": "weather", "location": "Paris"}, "category": "typo"}
+{"input": "how is the weather in Casablanca toay", "target": {"intent": "weather", "location": "Casablanca"}, "category": "typo"}
+{"input": "how is the weaather in Paris today", "target": {"intent": "weather", "location": "Paris"}, "category": "typo"}
+{"input": "ok so this is a bit of a weird request but is it going to rain in Paris because I need it for the presentation later today", "target": {"intent": "weather", "location": "Paris"}, "category": "long"}
+{"input": "I'm working on my end of semester project and I need you to what is the weather in Paris and let me know when it is done", "target": {"intent": "weather", "location": "Paris"}, "category": "long"}
+{"input": "before my meeting starts in a few minutes, I would like you to is it going to rain in London as soon as possible, thank you very much", "target": {"intent": "weather", "location": "London"}, "category": "long"}
+{"input": "look up the definition of paradigm", "target": {"intent": "dictionary_lookup", "word": "paradigm"}, "category": "clean"}
+{"input": "look up the definition of ephemeral", "target": {"intent": "dictionary_lookup", "word": "ephemeral"}, "category": "clean"}
+{"input": "what does serendipity mean", "target": {"intent": "dictionary_lookup", "word": "serendipity"}, "category": "clean"}
+{"input": "define serendipity", "target": {"intent": "dictionary_lookup", "word": "serendipity"}, "category": "clean"}
+{"input": "what does paradigm mean", "target": {"intent": "dictionary_lookup", "word": "paradigm"}, "category": "clean"}
+{"input": "look up the definition of serendipity", "target": {"intent": "dictionary_lookup", "word": "serendipity"}, "category": "clean"}
+{"input": "hey, look up the definition of ubiquitous thanks", "target": {"intent": "dictionary_lookup", "word": "ubiquitous"}, "category": "filler"}
+{"input": "um, what does paradigm mean for me", "target": {"intent": "dictionary_lookup", "word": "paradigm"}, "category": "filler"}
+{"input": "please what does paradigm mean for me", "target": {"intent": "dictionary_lookup", "word": "paradigm"}, "category": "filler"}
+{"input": "could you what does ephemeral mean for me", "target": {"intent": "dictionary_lookup", "word": "ephemeral"}, "category": "filler"}
+{"input": "what dose resilience mean", "target": {"intent": "dictionary_lookup", "word": "resilience"}, "category": "typo"}
+{"input": "look up the definition of resilience", "target": {"intent": "dictionary_lookup", "word": "resilience"}, "category": "typo"}
+{"input": "loook up the definition of paradigm", "target": {"intent": "dictionary_lookup", "word": "paradigm"}, "category": "typo"}
+{"input": "I'm working on my end of semester project and I need you to look up the definition of ephemeral and let me know when it is done", "target": {"intent": "dictionary_lookup", "word": "ephemeral"}, "category": "long"}
+{"input": "I have been trying to do this for a while, could you define paradigm because I need it for the presentation later today", "target": {"intent": "dictionary_lookup", "word": "paradigm"}, "category": "long"}
+{"input": "before my meeting starts in a few minutes, I would like you to define resilience and let me know when it is done", "target": {"intent": "dictionary_lookup", "word": "resilience"}, "category": "long"}
+{"input": "translate see you tomorrow into spanish", "target": {"intent": "translate_text", "text": "see you tomorrow", "lang": "spanish"}, "category": "clean"}
+{"input": "translate see you tomorrow to arabic", "target": {"intent": "translate_text", "text": "see you tomorrow", "lang": "arabic"}, "category": "clean"}
+{"input": "translate thank you to german", "target": {"intent": "translate_text", "text": "thank you", "lang": "german"}, "category": "clean"}
+{"input": "translate thank you to spanish", "target": {"intent": "translate_text", "text": "thank you", "lang": "spanish"}, "category": "clean"}
+{"input": "how do you say where is the station in french", "target": {"intent": "translate_text", "text": "where is the station", "lang": "french"}, "category": "clean"}
+{"input": "translate where is the station to spanish", "target": {"intent": "translate_text", "text": "where is the station", "lang": "spanish"}, "category": "clean"}
+{"input": "please translate thank you into arabic thanks", "target": {"intent": "translate_text", "text": "thank you", "lang": "arabic"}, "category": "filler"}
+{"input": "could you translate see you tomorrow to arabic please", "target": {"intent": "translate_text", "text": "see you tomorrow", "lang": "arabic"}, "category": "filler"}
+{"input": "um, translate where is the station into arabic thanks", "target": {"intent": "translate_text", "text": "where is the station", "lang": "arabic"}, "category": "filler"}
+{"input": "hey assistant, translate where is the station into spanish please", "target": {"intent": "translate_text", "text": "where is the station", "lang": "spanish"}, "category": "filler"}
+{"input": "translatte see you tomorrow into spanish", "target": {"intent": "translate_text", "text": "see you tomorrow", "lang": "spanish"}, "category": "typo"}
+{"input": "trasnlate good morning into arabic", "target": {"intent": "translate_text", "text": "good morning", "lang": "arabic"}, "category": "typo"}
+{"input": "how do you say good morning in arabic", "target": {"intent": "translate_text", "text": "good morning", "lang": "arabic"}, "category": "typo"}
+{"input": "I'm working on my end of semester project and I need you to translate see you tomorrow to german as soon as possible, thank you very much", "target": {"intent": "translate_text", "text": "see you tomorrow", "lang": "german"}, "category": "long"}
+{"input": "before my meeting starts in a few minutes, I would like you to translate good morning into arabic", "target": {"intent": "translate_text", "text": "good morning", "lang": "arabic"}, "category": "long"}
+{"input": "ok so this is a bit of a weird request but translate thank you into arabic as soon as possible, thank you very much", "target": {"intent": "translate_text", "text": "thank you", "lang": "arabic"}, "category": "long"}
+{"input": "opne firefx", "target": {"intent": "open_app", "app": "firefox"}, "category": "hard"}
+{"input": "could you maybe open up google chrome for me", "target": {"intent": "open_app", "app": "chrome"}, "category": "hard"}
+{"input": "I want to see github.com", "target": {"intent": "open_url", "url": "github.com"}, "category": "hard"}
+{"input": "open visual studio code", "target": {"intent": "open_app", "app": "vscode"}, "category": "hard"}
+{"input": "can you open the terminal window", "target": {"intent": "open_app", "app": "terminal"}, "category": "hard"}
+{"input": "it's too loud", "target": {"intent": "volume_down"}, "category": "hard"}
+{"input": "I can't hear anything, turn it up", "target": {"intent": "volume_up"}, "category": "hard"}
+{"input": "get rid of todo.txt", "target": {"intent": "delete_file", "filename": "todo.txt"}, "category": "hard"}
+{"input": "I need a new empty file, call it ideas.txt", "target": {"intent": "create_file", "filename": "ideas.txt"}, "category": "hard"}
+{"input": "what's inside the projects folder", "target": {"intent": "list_dir", "folder": "projects"}, "category": "hard"}
+{"input": "search google for how to cook rice", "target": {"intent": "search_web", "query": "how to cook rice"}, "category": "hard"}
+{"input": "what's the temperature outside in Paris", "target": {"intent": "weather", "location": "Paris"}, "category": "hard"}
+{"input": "wake me up in 10 minutes", "target": {"intent": "set_timer", "duration": "10 minutes"}, "category": "hard"}
+{"input": "I'm leaving, lock everything", "target": {"intent": "lock_screen"}, "category": "hard"}
+{"input": "turn the computer off now", "target": {"intent": "shutdown"}, "category": "hard"}
+{"input": "stop the sound completely", "target": {"intent": "mute"}, "category": "hard"}
+{"input": "I want to listen to some music", "target": {"intent": "play_music"}, "category": "hard"}
+{"input": "put report.txt and notes.md in a zip called bundle.zip", "target": {"intent": "zip_files", "filenames": "report.txt, notes.md", "zipname": "bundle.zip"}, "category": "hard"}
+{"input": "take report.txt and move it over to the archive folder", "target": {"intent": "move_file", "filename": "report.txt", "folder": "archive"}, "category": "hard"}
+{"input": "open firefox and then go to youtube.com", "target": {"intent": "open_app_and_go_url", "app": "firefox", "url": "youtube.com"}, "category": "hard"}
+{"input": "look for python jobs in paris", "target": {"intent": "search_web", "query": "python jobs in paris"}, "category": "hard"}
+{"input": "what does the word ubiquitous mean", "target": {"intent": "dictionary_lookup", "word": "ubiquitous"}, "category": "hard"}
+{"input": "say thank you in spanish", "target": {"intent": "translate_text", "text": "thank you", "lang": "spanish"}, "category": "hard"}
+{"input": "print screen", "target": {"intent": "screenshot"}, "category": "hard"}
+{"input": "reboot please, it is frozen", "target": {"intent": "restart"}, "category": "hard"}
+{"input": "show me the budget.xlsx file", "target": {"intent": "open_file", "filename": "budget.xlsx"}, "category": "hard"}
+{"input": "make a directory for my photos called holidays", "target": {"intent": "create_folder", "folder": "holidays"}, "category": "hard"}
+{"input": "hold the music", "target": {"intent": "pause_music"}, "category": "hard"}
+{"input": "youtube.com in chrome please", "target": {"intent": "open_app_and_go_url", "app": "chrome", "url": "youtube.com"}, "category": "hard"}
+{"input": "extract everything from release.zip", "target": {"intent": "unzip_files", "zipname": "release.zip"}, "category": "hard"}
