@@ -15,16 +15,19 @@
 
 ```mermaid
 flowchart LR
-    A[🎤 Voice] --> B["ASR<br/>SpeechRecognition<br/>(Google Web Speech)"]
-    T[⌨️ Text CLI] --> C
+    A["Voice (microphone)"] --> B["ASR<br/>SpeechRecognition<br/>(Google Web Speech)"]
+    T["Text CLI"] --> C
     B --> C["NLU<br/>fine-tuned T5-small<br/>beam search"]
-    C --> D["Structured intent<br/>{intent, args, confidence}"]
-    D --> E{"Guardrails<br/>intent & app allow-lists<br/>path sandbox · URL check<br/>confirmation"}
-    E -- refused --> R[Explain why, do nothing]
-    E -- needs confirmation --> U[Ask the user] --> F
-    E -- ok --> F["Executor<br/>argument lists, no shell<br/>Windows · macOS · Linux"]
-    F --> G["Feedback<br/>log · TTS (pyttsx3) · Tkinter"]
+    C --> D["Structured intent<br/>intent + arguments<br/>+ confidence"]
+    D --> E{"Guardrails"}
+    E -->|refused| R["Explain why,<br/>do nothing"]
+    E -->|needs confirmation| U["Ask the user"]
+    U --> F
+    E -->|ok| F["Executor<br/>argument lists, no shell<br/>Windows, macOS, Linux"]
+    F --> G["Feedback<br/>log, TTS, Tkinter"]
 ```
+
+Guardrails = intent and app allow-lists, path sandbox, URL check, confirmation of destructive or low-confidence actions (details below).
 
 | Stage | Code |
 |---|---|
